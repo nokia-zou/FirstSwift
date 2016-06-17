@@ -66,4 +66,35 @@ extension NSDictionary {
         return nil
     }
 
+    func integerValueForKey(key: String!) -> NSInteger {
+        if (nil == key) {
+            return 0
+        }
+        
+        let value = self.objectForKey(key)
+        if value is NSString {
+            return (value as? NSString)?.integerValue ?? 0
+        }
+        else if value is NSNumber {
+            return (value as? NSNumber)?.integerValue ?? 0
+        }
+        
+        return 0
+    }
+    
+    func cgfloatValueForKey(key: String!) -> CGFloat {
+        if (nil == key) {
+            return 0.0
+        }
+        
+        let value = self.objectForKey(key)
+        if value is NSString {
+            return CGFloat((value as? NSString)?.floatValue ?? 0.0)
+        }
+        else if value is NSNumber {
+            return CGFloat((value as? NSNumber)?.floatValue ?? 0.0)
+        }
+        
+        return 0
+    }
 }
