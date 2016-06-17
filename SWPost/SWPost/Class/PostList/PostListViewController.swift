@@ -40,7 +40,7 @@ class PostListViewController: BaseViewController ,UITableViewDelegate ,UITableVi
     // MARK: - data
     func createDataSource() {
         //  net
-        self.dataSource = PostListDataSource(url: "http://s.budejie.com/topic/list/jingxuan/1/bs0315-iphone-4.0/0-20.json");
+        self.dataSource = PostListDataSource(url: "http://s.budejie.com/topic/list/jingxuan/10/bs0315-iphone-4.0/0-20.json");
     }
     
     func refreshData() {
@@ -76,7 +76,10 @@ class PostListViewController: BaseViewController ,UITableViewDelegate ,UITableVi
             cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "cell")
         }
         
-        cell?.textLabel?.text = (self.dataSource?.postArray?[indexPath.row] as? Post)?.textContent
+        let post = self.dataSource?.postArray?[indexPath.row] as? Post
+        
+        
+        cell?.textLabel?.text = (post?.userName)! + (post?.textContent)!
         
         return cell!
     }
