@@ -709,14 +709,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Junhui Shao (5P4EK4DL9R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Junhui Shao (5P4EK4DL9R)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: junhui shao (M9M52FPQHP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: junhui shao (M9M52FPQHP)";
 				INFOPLIST_FILE = SWPost/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kufaxian.wanwanmeixiangdao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "12d21a52-42af-4269-b964-29c8ad2364ae";
+				PROVISIONING_PROFILE = "43b6d9e1-1126-4e9a-8620-104cae2024e1";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -726,14 +726,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Junhui Shao (5P4EK4DL9R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Junhui Shao (5P4EK4DL9R)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: junhui shao (M9M52FPQHP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: junhui shao (M9M52FPQHP)";
 				INFOPLIST_FILE = SWPost/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kufaxian.wanwanmeixiangdao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "12d21a52-42af-4269-b964-29c8ad2364ae";
+				PROVISIONING_PROFILE = "43b6d9e1-1126-4e9a-8620-104cae2024e1";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
